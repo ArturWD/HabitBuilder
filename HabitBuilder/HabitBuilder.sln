@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabitBuilder", "HabitBuilder\HabitBuilder.csproj", "{44F1BE93-858D-44A2-BAF8-A0373B88FC7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabitBuilder.DAL", "HabitBuilder.DAL\HabitBuilder.DAL.csproj", "{3AAA57F7-06B6-4684-AE5E-CF2982858AF9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabitBuilder.Core", "HabitBuilder.Core\HabitBuilder.Core.csproj", "{D4A2607E-6D2B-4159-AB6C-C73D029AF40F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabitBuilder.Services", "HabitBuilder.Services\HabitBuilder.Services.csproj", "{582ED626-7FFE-4A9F-AC7C-574920FB67FA}"
@@ -21,10 +19,6 @@ Global
 		{44F1BE93-858D-44A2-BAF8-A0373B88FC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44F1BE93-858D-44A2-BAF8-A0373B88FC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44F1BE93-858D-44A2-BAF8-A0373B88FC7B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3AAA57F7-06B6-4684-AE5E-CF2982858AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AAA57F7-06B6-4684-AE5E-CF2982858AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AAA57F7-06B6-4684-AE5E-CF2982858AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AAA57F7-06B6-4684-AE5E-CF2982858AF9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D4A2607E-6D2B-4159-AB6C-C73D029AF40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D4A2607E-6D2B-4159-AB6C-C73D029AF40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4A2607E-6D2B-4159-AB6C-C73D029AF40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
