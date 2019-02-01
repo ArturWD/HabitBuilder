@@ -48,11 +48,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataContext.cs" />
+    <Compile Include="Migrations\201902010513529_initial_model.cs" />
+    <Compile Include="Migrations\201902010513529_initial_model.Designer.cs">
+      <DependentUpon>201902010513529_initial_model.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902010523584_initial_model1.cs" />
+    <Compile Include="Migrations\201902010523584_initial_model1.Designer.cs">
+      <DependentUpon>201902010523584_initial_model1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HabitBuilder.Core\HabitBuilder.Core.csproj">
+      <Project>{d4a2607e-6d2b-4159-ab6c-c73d029af40f}</Project>
+      <Name>HabitBuilder.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201902010513529_initial_model.resx">
+      <DependentUpon>201902010513529_initial_model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902010523584_initial_model1.resx">
+      <DependentUpon>201902010523584_initial_model1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
