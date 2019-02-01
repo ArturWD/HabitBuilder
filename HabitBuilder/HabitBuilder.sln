@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabitBuilder.Core", "HabitB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabitBuilder.Services", "HabitBuilder.Services\HabitBuilder.Services.csproj", "{582ED626-7FFE-4A9F-AC7C-574920FB67FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabitBuilder.DAL", "HabitBuilder.DAL\HabitBuilder.DAL.csproj", "{B77156C8-AB8A-48A3-AFDB-0C9D456C7B75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{582ED626-7FFE-4A9F-AC7C-574920FB67FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{582ED626-7FFE-4A9F-AC7C-574920FB67FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{582ED626-7FFE-4A9F-AC7C-574920FB67FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77156C8-AB8A-48A3-AFDB-0C9D456C7B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77156C8-AB8A-48A3-AFDB-0C9D456C7B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77156C8-AB8A-48A3-AFDB-0C9D456C7B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77156C8-AB8A-48A3-AFDB-0C9D456C7B75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

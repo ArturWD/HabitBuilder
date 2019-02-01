@@ -3,12 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
 
-namespace HabitBuilder.DAL
+namespace HabitBuilder
 {
-    public class DataContext: DbContext
+    public class DataContext : DbContext
     {
         public DataContext()
             : base("name=DefaultConnection")
@@ -73,6 +72,6 @@ namespace HabitBuilder.DAL
 
             base.OnModelCreating(modelBuilder);
             */
-        }    
+        }
     }
 }

@@ -13,7 +13,7 @@ namespace HabitBuilder.DAL.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201902010706588_initial"; }
+            get { return "201902011648287_initial"; }
         }
         
         string IMigrationMetadata.Source

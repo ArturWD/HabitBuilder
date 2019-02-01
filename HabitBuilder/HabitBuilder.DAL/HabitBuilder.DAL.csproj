@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3AAA57F7-06B6-4684-AE5E-CF2982858AF9}</ProjectGuid>
+    <ProjectGuid>{B77156C8-AB8A-48A3-AFDB-0C9D456C7B75}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HabitBuilder.DAL</RootNamespace>
@@ -49,9 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext.cs" />
-    <Compile Include="Migrations\201902010706588_initial.cs" />
-    <Compile Include="Migrations\201902010706588_initial.Designer.cs">
-      <DependentUpon>201902010706588_initial.cs</DependentUpon>
+    <Compile Include="Migrations\201902011648287_initial.cs" />
+    <Compile Include="Migrations\201902011648287_initial.Designer.cs">
+      <DependentUpon>201902011648287_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,14 +65,10 @@
       <Project>{d4a2607e-6d2b-4159-ab6c-c73d029af40f}</Project>
       <Name>HabitBuilder.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\HabitBuilder\HabitBuilder.csproj">
-      <Project>{44f1be93-858d-44a2-baf8-a0373b88fc7b}</Project>
-      <Name>HabitBuilder</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201902010706588_initial.resx">
-      <DependentUpon>201902010706588_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201902011648287_initial.resx">
+      <DependentUpon>201902011648287_initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
