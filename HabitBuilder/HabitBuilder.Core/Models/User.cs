@@ -12,5 +12,6 @@ namespace HabitBuilder.Core.Models
     {
         public int UserId { get; set; }
         public virtual ICollection<Habit> Habits { get; set; }
+        public virtual ApplicationUser Identity { get; set; }
     }
 }

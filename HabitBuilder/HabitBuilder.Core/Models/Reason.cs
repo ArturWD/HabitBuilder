@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ namespace HabitBuilder.Core.Models
     public class Reason
     {
         public int ReasonId { get; set; }
+        [MaxLength(100)]
         public string ReasonText { get; set; }
 
     }
